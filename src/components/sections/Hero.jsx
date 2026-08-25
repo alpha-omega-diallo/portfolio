@@ -38,11 +38,8 @@ export default function Hero() {
 
       <Reveal delay={300}>
         <p className="mx-auto mt-6 max-w-xl text-base text-slate-500 dark:text-slate-400">
-          Je conçois des projets web et logiciels avec un intérêt particulier pour la sécurité informatique,
-          l&apos;architecture logicielle et le développement sécurisé.
-          <span className="mt-1 block text-xs text-slate-400 dark:text-slate-500">
-            (texte à personnaliser à l&apos;étape 6)
-          </span>
+          Étudiant à l&apos;Université de Bordeaux, je recherche une alternance en cybersécurité pour
+          allier apprentissage théorique et pratique en entreprise.
         </p>
       </Reveal>
 
