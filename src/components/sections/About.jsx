@@ -36,7 +36,7 @@ export default function About() {
       <div className="mt-12 grid gap-12 md:grid-cols-5 md:items-center">
         <Reveal direction="right" className="md:col-span-2">
           <div className="mx-auto flex h-48 w-48 items-center justify-center rounded-full bg-gradient-to-tr from-blue-500 to-purple-500 text-4xl font-bold text-white shadow-lg md:h-56 md:w-56">
-            MAD
+            ALPHA
           </div>
         </Reveal>
 

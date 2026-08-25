@@ -62,3 +62,49 @@ export function MapPinIcon(props) {
     </svg>
   )
 }
+
+export function CpuIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <rect x="6" y="6" width="12" height="12" rx="1" />
+      <rect x="9" y="9" width="6" height="6" />
+      <path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2" />
+    </svg>
+  )
+}
+
+export function CodeIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <path d="m8 6-6 6 6 6M16 6l6 6-6 6" />
+    </svg>
+  )
+}
+
+export function GlobeIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3 12h18M12 3c2.5 2.5 4 5.5 4 9s-1.5 6.5-4 9c-2.5-2.5-4-5.5-4-9s1.5-6.5 4-9Z" />
+    </svg>
+  )
+}
+
+export function PuzzleIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <path d="M9.5 3.5a1.5 1.5 0 0 1 3 0V5h2a2 2 0 0 1 2 2v2h1.5a1.5 1.5 0 0 1 0 3H16.5v2a2 2 0 0 1-2 2h-2v1.5a1.5 1.5 0 0 1-3 0V16h-2a2 2 0 0 1-2-2v-2H3.5a1.5 1.5 0 0 1 0-3H5.5V7a2 2 0 0 1 2-2h2V3.5Z" />
+    </svg>
+  )
+}
+
+export function GitBranchIcon(props) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+      <line x1="6" y1="3" x2="6" y2="15" />
+      <circle cx="18" cy="6" r="3" />
+      <circle cx="6" cy="18" r="3" />
+      <path d="M18 9a9 9 0 0 1-9 9" />
+    </svg>
+  )
+}
