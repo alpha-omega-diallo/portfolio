@@ -1,16 +1,66 @@
-# React + Vite
+# Portfolio — Mamadou Alpha Diallo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personnel présentant mon parcours, mes compétences, mes projets et mes certifications, ainsi qu'un CV téléchargeable et un moyen de me contacter.
 
-Currently, two official plugins are available:
+**Démo en ligne :** _à venir (déploiement prévu sur Vercel)_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack technique
 
-## React Compiler
+- [React 19](https://react.dev/)
+- [Vite](https://vite.dev/) (via [rolldown-vite](https://vite.dev/guide/rolldown))
+- [Tailwind CSS 4](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Structure du projet
 
-## Expanding the ESLint configuration
+```
+src/
+├── App.jsx
+├── main.jsx
+├── index.css
+├── assets/          # images, icônes
+├── components/
+│   ├── common/      # composants réutilisables (boutons, cartes, etc.)
+│   ├── layout/       # Navbar, Footer, structure globale
+│   └── sections/     # sections de la page (Hero, À propos, Compétences, ...)
+├── data/             # données statiques (projets, compétences, expériences...)
+├── hooks/            # hooks React personnalisés
+├── pages/            # pages de l'application
+└── utils/            # fonctions utilitaires
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+```bash
+npm install
+```
+
+## Scripts disponibles
+
+| Commande          | Description                              |
+|-------------------|-------------------------------------------|
+| `npm run dev`     | Lance le serveur de développement Vite    |
+| `npm run build`   | Build de production                       |
+| `npm run preview` | Prévisualise le build de production       |
+| `npm run lint`    | Vérifie le code avec ESLint               |
+
+## Feuille de route
+
+- [x] Étape 1 — Environnement, Vite, Git, GitHub
+- [x] Étape 2 — Architecture des dossiers & config CSS
+- [x] Étape 3 — README, .gitignore, LICENSE
+- [ ] Étape 4 — Layout: Navbar, Footer, menu responsive, thème clair/sombre
+- [ ] Étape 5 — Section Hero + animations au scroll
+- [ ] Étape 6 — Présentation / À propos
+- [ ] Étape 7 — Compétences
+- [ ] Étape 8 — Expériences & Formations
+- [ ] Étape 9 — Projets & Certifications
+- [ ] Étape 10 — CV téléchargeable & Contact
+- [ ] Étape 11 — SEO, favicon, Open Graph, métadonnées, perf images
+- [ ] Étape 12 — Accessibilité, responsive final, revue Clean Code
+- [ ] Étape 13 — Déploiement Vercel
+- [ ] Vérification finale
+
+## Licence
+
+Distribué sous licence MIT. Voir [LICENSE](./LICENSE) pour plus d'informations.
