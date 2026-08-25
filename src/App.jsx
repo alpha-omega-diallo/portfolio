@@ -1,14 +1,13 @@
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
+import Hero from './components/sections/Hero'
 
 function App() {
   return (
     <>
       <Navbar />
       <main className="pt-16">
-        <section id="hero" className="flex min-h-screen items-center justify-center">
-          <p className="text-slate-400 dark:text-slate-600">Section Hero — à venir (Étape 5)</p>
-        </section>
+        <Hero />
         <section id="about" className="flex min-h-screen items-center justify-center">
           <p className="text-slate-400 dark:text-slate-600">Section À propos — à venir (Étape 6)</p>
         </section>

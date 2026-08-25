@@ -61,7 +61,7 @@ export default function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur-sm dark:border-slate-800 dark:bg-slate-950/80">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 sm:px-6" aria-label="Navigation principale">
         <a href="#hero" className="text-lg font-bold tracking-tight text-slate-900 dark:text-white">
-          Mamadou Alpha Diallo
+          ALPHA
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
